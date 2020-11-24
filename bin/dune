@@ -1,0 +1,6 @@
+;; -*- scheme -*-
+
+(executables
+ (modes exe)
+ (names transitive_dice)
+ (libraries base core transitive_dice_lib))
